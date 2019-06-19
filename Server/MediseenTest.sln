@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediseenTestApi", "MediseenTestApi\MediseenTestApi.csproj", "{1F796905-1F43-4100-83B8-DCB45C0C3940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediseenTestServiceAccessor", "MediseenTestServiceAccessor\MediseenTestServiceAccessor.csproj", "{69BF9526-F00E-4F3D-8436-95E08350F477}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F796905-1F43-4100-83B8-DCB45C0C3940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F796905-1F43-4100-83B8-DCB45C0C3940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F796905-1F43-4100-83B8-DCB45C0C3940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F796905-1F43-4100-83B8-DCB45C0C3940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69BF9526-F00E-4F3D-8436-95E08350F477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69BF9526-F00E-4F3D-8436-95E08350F477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69BF9526-F00E-4F3D-8436-95E08350F477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69BF9526-F00E-4F3D-8436-95E08350F477}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DC2AE0C-B9F9-48C6-8F41-786030B06CB7}
+	EndGlobalSection
+EndGlobal
