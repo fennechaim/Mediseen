@@ -23,12 +23,22 @@ namespace MediseenTestApi
 		}
 
 		public IConfiguration Configuration { get; }
+		readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
 			
 			services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+			services.AddCors(options =>
+			{
+				options.AddPolicy(MyAllowSpecificOrigins,
+				builder =>
+				{
+					builder.WithOrigins("*");
+				});
+			});
 
 			services.AddTransient<FdaServiceProvider, FdaServiceProvider>();
 		}
@@ -48,9 +58,9 @@ namespace MediseenTestApi
 				app.UseHsts();
 			}
 
-			
+			app.UseCors(MyAllowSpecificOrigins);
 
-		
+
 			app.UseHttpsRedirection();
 			app.UseMvc();
 		}

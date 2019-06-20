@@ -4,12 +4,15 @@ using System.Linq;
 using System.Threading.Tasks;
 //using System.Web.Http;
 using MediseenTestServiceAccessor.FdaService;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MediseenTestApi.Controllers
 {
 
 	//[RoutePrefix("api/ingredients")]
+
+	
 	[Route("api/ingredients")]
 	[ApiController]
 	public class MediseenController :ControllerBase
