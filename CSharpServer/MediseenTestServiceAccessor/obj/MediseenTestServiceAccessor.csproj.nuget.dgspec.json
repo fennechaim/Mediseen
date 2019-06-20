@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\Server\\MediseenTestServiceAccessor\\MediseenTestServiceAccessor.csproj": {}
+    "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\CSharpServer\\MediseenTestServiceAccessor\\MediseenTestServiceAccessor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\Server\\MediseenTestServiceAccessor\\MediseenTestServiceAccessor.csproj": {
+    "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\CSharpServer\\MediseenTestServiceAccessor\\MediseenTestServiceAccessor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\Server\\MediseenTestServiceAccessor\\MediseenTestServiceAccessor.csproj",
+        "projectUniqueName": "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\CSharpServer\\MediseenTestServiceAccessor\\MediseenTestServiceAccessor.csproj",
         "projectName": "MediseenTestServiceAccessor",
-        "projectPath": "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\Server\\MediseenTestServiceAccessor\\MediseenTestServiceAccessor.csproj",
+        "projectPath": "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\CSharpServer\\MediseenTestServiceAccessor\\MediseenTestServiceAccessor.csproj",
         "packagesPath": "C:\\Users\\HaimB\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\Server\\MediseenTestServiceAccessor\\obj\\",
+        "outputPath": "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\CSharpServer\\MediseenTestServiceAccessor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

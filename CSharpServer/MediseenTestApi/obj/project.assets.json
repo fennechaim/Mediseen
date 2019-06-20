@@ -13008,11 +13008,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\Server\\MediseenTestApi\\MediseenTestApi.csproj",
+      "projectUniqueName": "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\CSharpServer\\MediseenTestApi\\MediseenTestApi.csproj",
       "projectName": "MediseenTestApi",
-      "projectPath": "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\Server\\MediseenTestApi\\MediseenTestApi.csproj",
+      "projectPath": "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\CSharpServer\\MediseenTestApi\\MediseenTestApi.csproj",
       "packagesPath": "C:\\Users\\HaimB\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\Server\\MediseenTestApi\\obj\\",
+      "outputPath": "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\CSharpServer\\MediseenTestApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13031,8 +13031,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\Server\\MediseenTestServiceAccessor\\MediseenTestServiceAccessor.csproj": {
-              "projectPath": "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\Server\\MediseenTestServiceAccessor\\MediseenTestServiceAccessor.csproj"
+            "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\CSharpServer\\MediseenTestServiceAccessor\\MediseenTestServiceAccessor.csproj": {
+              "projectPath": "C:\\Users\\HaimB\\Source\\Repos\\MediseenTest\\CSharpServer\\MediseenTestServiceAccessor\\MediseenTestServiceAccessor.csproj"
             }
           }
         }
