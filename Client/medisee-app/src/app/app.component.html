@@ -1,0 +1,55 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Mediseen Test Haim</title>
+    <script type="text/javascript" src="view.js"></script>
+</head>
+<body id="main_body" >
+	
+	<img id="top" src="assets/img/top.png" alt="">
+	<div id="form_container">
+	
+		<h1><a>Mediseen Test Haim</a></h1>
+		<form id="myform" class="appnitro"  method="GET" action="">
+					<div class="form_description">
+			<h2>Mediseen Test Haim</h2>
+			<p>Enter Reaction type that you want to load</p>
+		</div>						
+			<ul >
+			
+					<li id="li_1" >
+		<label class="description" for="reaction">Reaction </label>
+		<div>
+			<input id="reaction" name="reaction" [(ngModel)]="reaction" class="element text medium" type="text" maxlength="255" value="death"/> 
+		</div> 
+		</li>
+			
+					<li class="buttons">
+              <input type="hidden" name="form_id" value="70132" />
+        
+				<input type="submit" value="Search" (click)="onSubmit()"/>
+		</li>
+			</ul>
+    </form>	
+    
+    <div ng-app="testApp" data-ng-controller="AppComponent">
+        <table border="1">
+           <tr>
+             <th>Ingredients</th>
+             <th>Count</th>
+           <tr>
+           <tr *ngFor="let item of data">
+             <td>{{item.term}}</td>
+             <td>{{item.count}}</td>
+      
+           </tr>
+      </table>
+      </div>
+		<div id="footer">
+			
+		</div>
+	</div>
+	<img id="bottom" src="assets/img/bottom.png" alt="">
+	</body>
+</html>
